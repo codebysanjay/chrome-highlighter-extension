@@ -1,0 +1,13 @@
+{
+    "name":"Reader Text Runner",
+    "version":"1.0.0",
+    "description":"A test highligher for easy reading. Darkens background easily.",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+          "matches": ["<all_urls>"],
+          "css": ["style.css"],
+          "js": ["script.js"]
+        }
+      ]
+}
